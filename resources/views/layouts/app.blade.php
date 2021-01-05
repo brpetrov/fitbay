@@ -12,7 +12,7 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-
+        <script src="https://cdn.tiny.cloud/1/x5eo54mofpg425hl30g0ssqk8whpwjxrukz9nw7y6gj12bhx/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
@@ -28,7 +28,7 @@
             </header>
 
             <!-- Page Content -->
-            <main>
+            <main class="w-full md:w-3/4 mx-auto">
                 {{ $slot }}
             </main>
         </div>

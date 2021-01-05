@@ -21297,6 +21297,15 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 __webpack_require__(/*! alpinejs */ "./node_modules/alpinejs/dist/alpine.js");
 
+tinymce.init({
+  selector: "textarea",
+  plugins: "advlist lists",
+  toolbar_mode: "floating",
+  resize: false,
+  min_height: 500,
+  max_height: 1000
+});
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
